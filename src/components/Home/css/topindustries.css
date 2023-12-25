@@ -1,0 +1,24 @@
+.industries{
+    position: absolute;
+    top: 400vh;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #f3f2fc;
+    padding-block: 5rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.industries-head{
+    font-size: 2.5rem;
+    color: #262626;
+    font-weight: 600;
+}
+.industries-head-2{
+    font-size: 1rem;
+    color: rgba(0,0, 0, 0.3);
+}

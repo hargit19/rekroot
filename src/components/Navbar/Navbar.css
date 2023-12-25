@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+.navbar{
+    width: 100vw;
+    height: 12vh;
+    /* background-color: yellow; */
+    display: flex;
+    box-sizing: border-box;
+    padding-inline: 2.5rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.navbar-left{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+}
+.company-name{
+    font-size: 1.9rem;
+    color: #5049E1;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Inter', sans-serif;
+}
+.navbar-items{
+    display: flex;
+    column-gap: 2.2rem;
+    text-decoration: none;
+    border: none;
+}
+:link{
+    text-decoration: none;
+}
+.navbar-items-content{
+    color: #262626;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.site-name{
+    color: black;
+}
+.navbar-right{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    column-gap: 1.5rem;
+}
+.navbar-right-first{
+    display: flex;
+    column-gap: 0.5rem;
+    width: 50%;
+}
+.post-job-btn{
+    width: 40%;
+    height: 3rem;
+    border-radius: 6px;
+border: 1px solid #5049E1;
+background: #5049E1;
+color: #fff;
+font-weight: 500;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 0.9rem;
+font-family: 'Inter', sans-serif;
+
+}
+.sign-in-btn , .dashboard-btn{
+    width: 45%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+
+}

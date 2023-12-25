@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+.top-companies{
+    position: absolute;
+    left: 0;
+    top: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    box-sizing: border-box;
+    padding-block: 4rem;
+    row-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+
+}
+.top-companies-head{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+    color: #262626;
+}
+
+.top-companies-head-2{
+    font-size: 0.9rem;
+    color: #262626;
+    text-transform: capitalize;
+}
+.top-companies-cards{
+    height: 20vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 3rem;
+}
+.top-companies-cards-content{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    transition: 0.25s ease;
+    cursor: pointer;
+    filter: grayscale(1);
+}
+.top-companies-cards-content p{
+    color: #5049E1;
+    font-size: 0.8rem;
+}
+.top-companies-cards-content-img{
+    height: 80%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.03);
+    box-sizing: border-box;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+}
+.top-companies-cards-content:hover{
+    filter: grayscale(0);
+}
+/* .top-companies-cards-content:hover .top-companies-cards-content-img{
+    filter: grayscale(0);
+    background-color: #fff;
+}
+.top-companies-cards-content:hover {
+    color: #5049E1;
+} */
